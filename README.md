@@ -20,8 +20,3 @@
   docker build -t dun github.com/cmfatih/dun
   docker run dun /usr/bin/node -p 'console.log("dockerized!");process.exit(0);'
 ```
-
-### Todo
-
-  - node.js folder and permissions.
-  - An API for managing node.js applications. 
