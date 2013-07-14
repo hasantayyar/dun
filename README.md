@@ -1,6 +1,6 @@
 ## DUN
 
-  [DUN](http://github.com/cmfatih/dun) is a [docker](http://www.docker.io/) container for The DUN stack: Docker, Ubuntu, Node.js
+  [DUN](http://github.com/cmfatih/dun) is a [Docker](http://www.docker.io/) container for The DUN stack: Docker, Ubuntu, Node.js
   
 ### Installation
 
