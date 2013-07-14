@@ -6,12 +6,15 @@
 
 # Install docker (http://docker.io)
 #
-#   sudo apt-get update
-#   (only for Ubuntu EC2 AMIs) sudo apt-get install linux-image-extra-`uname -r`
-#   sudo apt-get install software-properties-common
-#   sudo add-apt-repository ppa:dotcloud/lxc-docker
-#   sudo apt-get update
-#   sudo apt-get install lxc-docker
+#   Ubuntu:
+#     sudo apt-get update
+#     sudo apt-get install software-properties-common
+#     sudo add-apt-repository ppa:dotcloud/lxc-docker
+#     sudo apt-get update
+#     sudo apt-get install lxc-docker
+#
+#   Mac, Linux, Windows, Amazon EC2, Rackspace Cloud. etc.:
+#     http://docs.docker.io/en/latest/installation/
 #
 #
 # Test docker
