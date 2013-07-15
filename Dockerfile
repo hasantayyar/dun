@@ -1,6 +1,6 @@
 # The DUN stack: Docker, Ubuntu, Node.js
 
-# VERSION           0.0.1
+# VERSION           0.0.2
 # MAINTAINER        cmfatih
 # DOCKER-VERSION    0.4.8
 
@@ -37,6 +37,7 @@ FROM ubuntu:12.10
 
 # Init node.js
 RUN apt-get update
+RUN apt-get upgrade -y
 RUN apt-get install -y software-properties-common python g++ make
 RUN add-apt-repository -y ppa:chris-lea/node.js
 RUN apt-get update
