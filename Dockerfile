@@ -1,6 +1,6 @@
 # The DUN stack: Docker, Ubuntu, Node.js
 
-# VERSION           0.0.2
+# VERSION           0.0.3
 # MAINTAINER        cmfatih
 # DOCKER-VERSION    0.4.8
 
@@ -35,10 +35,19 @@
 
 FROM ubuntu:12.10
 
-# Init node.js
+# Update package repository
+RUN echo "deb http://archive.ubuntu.com/ubuntu quantal main universe multiverse" > /etc/apt/sources.list
 RUN apt-get update
 RUN apt-get upgrade -y
+
+# Required packages
 RUN apt-get install -y software-properties-common python g++ make
+
+# Init node.js
 RUN add-apt-repository -y ppa:chris-lea/node.js
 RUN apt-get update
 RUN apt-get install -y nodejs
+
+# Removed unnecessary packages
+RUN apt-get purge -y software-properties-common python g++ make
+RUN apt-get autoremove -y
