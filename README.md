@@ -23,6 +23,7 @@
 
 ### Changelog
 
+* 0.0.4 Added Clear package repository cache
 * 0.0.3 Added Removing unnecessary packages.
 * 0.0.2 Added "apt-get upgrade" before node.js install.
 

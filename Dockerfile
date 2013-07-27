@@ -1,6 +1,6 @@
 # The DUN stack: Docker, Ubuntu, Node.js
 
-# VERSION           0.0.3
+# VERSION           0.0.4
 # MAINTAINER        cmfatih
 # DOCKER-VERSION    0.4.8
 
@@ -51,3 +51,6 @@ RUN apt-get install -y nodejs
 # Removed unnecessary packages
 RUN apt-get purge -y software-properties-common python g++ make
 RUN apt-get autoremove -y
+
+# Clear package repository cache
+RUN apt-get clean all
