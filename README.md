@@ -5,20 +5,20 @@
 ### Installation
 
 ```
-  docker pull cmfatih/dun
+docker pull cmfatih/dun
 ```
 
 ### Test
 
 ```
-  docker run cmfatih/dun /usr/bin/node -p 'console.log("dockerized!");process.exit(0);'
+docker run cmfatih/dun /usr/bin/node -p 'console.log("dockerized!");process.exit(0);'
 ```
 
 ### Build
 
 ```
-  docker build -t dun github.com/cmfatih/dun
-  docker run dun /usr/bin/node -p 'console.log("dockerized!");process.exit(0);'
+docker build -t dun github.com/cmfatih/dun
+docker run dun /usr/bin/node -p 'console.log("dockerized!");process.exit(0);'
 ```
 
 ### Changelog
