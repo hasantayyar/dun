@@ -22,6 +22,7 @@
 #   Example:  /.tmp-file-*
 #             /tmp-data/*
 #
+sources/
 
 # Symbolic links. (Do not add / end of path!)
 #
