@@ -1,4 +1,6 @@
 # The DUN stack: Docker, Ubuntu, Node.js
+# Copyright (c) 2013 Fatih Cetinkaya (http://github.com/cmfatih/dun)
+# For the full copyright and license information, please view the LICENSE.txt file.
 
 # VERSION           0.0.4
 # MAINTAINER        cmfatih
