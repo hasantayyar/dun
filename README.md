@@ -32,5 +32,5 @@ docker run dun /usr/bin/node -p 'console.log("dockerized!");process.exit(0);'
 ### License
 
 Copyright (c) 2013 Fatih Cetinkaya (http://github.com/cmfatih/dun)  
-Licensed under The MIT License (MIT) - http://www.opensource.org/licenses/mit-license.php  
+Licensed under The MIT License (MIT)  
 For the full copyright and license information, please view the LICENSE.txt file.
