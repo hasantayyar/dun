@@ -25,6 +25,7 @@ docker run dun /usr/bin/node -p 'console.log("dockerized!");process.exit(0);'
 
 ### Changelog
 
+* 0.0.5 Used Ubuntu 12.04 instead of 12.10
 * 0.0.4 Added Clear package repository cache
 * 0.0.3 Added Removing unnecessary packages.
 * 0.0.2 Added "apt-get upgrade" before node.js install.
